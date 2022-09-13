@@ -1,0 +1,9 @@
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\bin\Debug\netcoreapp3.1\PruebasUnitariasSantander.deps.json
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\bin\Debug\netcoreapp3.1\PruebasUnitariasSantander.dll
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\bin\Debug\netcoreapp3.1\PruebasUnitariasSantander.pdb
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\obj\Debug\netcoreapp3.1\PruebasUnitariasSantander.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\obj\Debug\netcoreapp3.1\PruebasUnitariasSantander.AssemblyInfoInputs.cache
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\obj\Debug\netcoreapp3.1\PruebasUnitariasSantander.AssemblyInfo.cs
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\obj\Debug\netcoreapp3.1\PruebasUnitariasSantander.csproj.CoreCompileInputs.cache
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\obj\Debug\netcoreapp3.1\PruebasUnitariasSantander.dll
+C:\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\obj\Debug\netcoreapp3.1\PruebasUnitariasSantander.pdb
