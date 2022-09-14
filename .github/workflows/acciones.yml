@@ -26,7 +26,7 @@ jobs:
       URL_SONAR_QAT: 'https://qatsonarqubeint.mx.corp/'
       URL_SONAR_PANDORA: 'http://sonar.pro.pandora.mx.corp/'
       URL_SONAR_WAS: 'http://wasatdipvlmx01.mx.corp:9000/'
-      DOTNET_VERSION: '6.0.401' # The .NET SDK version to use
+      DOTNET_VERSION: '3.1.420' # The .NET SDK version to use
     
   steps:
       - uses: actions/checkout@v2
