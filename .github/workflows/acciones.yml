@@ -43,6 +43,8 @@ jobs:
         run: dotnet restore
         working-directory: BancoTests/
         
+      - name: Install EF Tools
+        run: dotnet tool install --global dotnet-ef
       
       - name: Build
         run: dotnet build --configuration Release --no-restore
