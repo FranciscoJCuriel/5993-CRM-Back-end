@@ -2,7 +2,7 @@ name: learn-github-actions
 on:
   push:
   pull_request:
-    branches: [ main ]
+    branches: [ develop ]
     paths:
     - '**.cs'
     - '**.csproj'
