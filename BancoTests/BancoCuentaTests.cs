@@ -21,7 +21,8 @@ namespace BancoTests
             // Assert
             double actual = cuenta.Balance;
             Assert.AreEqual(expected, actual, 0.001, "Cuenta No debitada correctamente");
-         //   Assert.IsTrue(expected > debitAmount);
+         //Probando
+            //   Assert.IsTrue(expected > debitAmount);
         }
     }
 }
