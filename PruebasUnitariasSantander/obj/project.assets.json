@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\Santander\\Pruebas\\Backend\\PruebasUnitariasSantander\\PruebasUnitariasSantander.csproj",
+      "projectUniqueName": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\PruebasUnitariasSantander\\PruebasUnitariasSantander.csproj",
       "projectName": "PruebasUnitariasSantander",
-      "projectPath": "C:\\Proyectos\\Santander\\Pruebas\\Backend\\PruebasUnitariasSantander\\PruebasUnitariasSantander.csproj",
+      "projectPath": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\PruebasUnitariasSantander\\PruebasUnitariasSantander.csproj",
       "packagesPath": "C:\\Users\\w10\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\Santander\\Pruebas\\Backend\\PruebasUnitariasSantander\\obj\\",
+      "outputPath": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\PruebasUnitariasSantander\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
