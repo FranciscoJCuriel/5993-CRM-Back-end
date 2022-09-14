@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebasUnitariasSantander", "PruebasUnitariasSantander.csproj", "{A838CC8C-4F02-4E2F-9608-D67CB92F5D5A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoTests", "..\..\..\..\..\Users\w10\source\repos\BancoTests\BancoTests.csproj", "{85F3C186-C2E9-4148-ACD7-AEC09C8E8CD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A838CC8C-4F02-4E2F-9608-D67CB92F5D5A} = {A838CC8C-4F02-4E2F-9608-D67CB92F5D5A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
