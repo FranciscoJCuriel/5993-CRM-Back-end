@@ -35,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: dotnet restore
-        working-directory: BancoTests/BancoTests.csproj
+        working-directory: BancoTests/
         
       
       - name: Build
