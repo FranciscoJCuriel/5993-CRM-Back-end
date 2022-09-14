@@ -1660,6 +1660,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "PruebasUnitariasSantander/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PruebasUnitariasSantander.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PruebasUnitariasSantander.dll": {}
+        }
       }
     }
   },
@@ -6103,6 +6113,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "PruebasUnitariasSantander/1.0.0": {
+      "type": "project",
+      "path": "../PruebasUnitariasSantander/PruebasUnitariasSantander.csproj",
+      "msbuildProject": "../PruebasUnitariasSantander/PruebasUnitariasSantander.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6110,6 +6125,7 @@
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "PruebasUnitariasSantander >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -6121,11 +6137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w10\\source\\repos\\BancoTests\\BancoTests.csproj",
+      "projectUniqueName": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\BancoTests\\BancoTests.csproj",
       "projectName": "BancoTests",
-      "projectPath": "C:\\Users\\w10\\source\\repos\\BancoTests\\BancoTests.csproj",
+      "projectPath": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\BancoTests\\BancoTests.csproj",
       "packagesPath": "C:\\Users\\w10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\w10\\source\\repos\\BancoTests\\obj\\",
+      "outputPath": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\BancoTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6147,7 +6163,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\PruebasUnitariasSantander\\PruebasUnitariasSantander.csproj": {
+              "projectPath": "C:\\Proyectos\\Santander\\Code_Git\\5993-CRM-Back-end\\PruebasUnitariasSantander\\PruebasUnitariasSantander.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

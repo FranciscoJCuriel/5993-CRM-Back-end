@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -14,9 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="PruebasUnitariasSantander">
-      <HintPath>..\..\..\..\..\Proyectos\Santander\Pruebas\Backend\PruebasUnitariasSantander\bin\Debug\netcoreapp3.1\PruebasUnitariasSantander.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\PruebasUnitariasSantander\PruebasUnitariasSantander.csproj" />
   </ItemGroup>
 
 </Project>
