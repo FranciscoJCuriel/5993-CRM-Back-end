@@ -1,0 +1,35 @@
+name: learn-github-actions
+on: [push]
+jobs:
+ build:
+  runs-on: ubuntu-latest   # alternate runner OS is: ubuntu-latest
+  env:
+      RUNNER_DEBUG: 1
+      URL_DYNAMICS: 'https://pruebasminsait.crm4.dynamics.com'
+      USER_DYNAMICS: 'rlgalvan@tecxrm.com'
+      PASS_DYNAMICS: 'Indra2507'
+      CLIENT_ID: 'd4416ad8-8ed5-4776-95b7-80985180bcc0'
+      TENANT_ID: 'ec6b17bb-11d0-4195-abd0-521c69a5d1fd'
+      SOLUTION_NAME: 'DevPruebaSan'
+      SOLUTION_EXPORTED_FOLDER: 'out/exported/'
+      SOLUTION_FOLDER: 'out/solutions/'
+      SOLUTION_TARGET_FOLDER: 'solutions/'
+      URL_DYNAMICS_PRODUCTION: 'https://org392b3613.crm4.dynamics.com'
+      USER_DYNAMICS_PRODUCTION: 'TestTestSNT@TESTMINDevOps.onmicrosoft.com'
+      PASS_DYNAMICS_PRODUCTION: 'TrialSNT0609'
+      URL_SONAR_QAT: 'https://qatsonarqubeint.mx.corp/'
+      URL_SONAR_PANDORA: 'http://sonar.pro.pandora.mx.corp/'
+      URL_SONAR_WAS: 'http://wasatdipvlmx01.mx.corp:9000/'
+    
+  steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+          
+      - name: who-am-i action
+        uses: jtalk/url-health-check-action@v2
+        with:
+          url: ${{ env.URL_SONAR_WAS }}
+          follow-redirect: false
+          max-attempts: 5
+          retry-delay: 5s
