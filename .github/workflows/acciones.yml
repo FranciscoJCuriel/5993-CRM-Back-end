@@ -26,7 +26,7 @@ jobs:
       URL_SONAR_QAT: 'https://qatsonarqubeint.mx.corp/'
       URL_SONAR_PANDORA: 'http://sonar.pro.pandora.mx.corp/'
       URL_SONAR_WAS: 'http://wasatdipvlmx01.mx.corp:9000/'
-      DOTNET_VERSION: '5.0.301' # The .NET SDK version to use
+      DOTNET_VERSION: '6.0.401' # The .NET SDK version to use
     
   steps:
       - uses: actions/checkout@v2
@@ -43,9 +43,7 @@ jobs:
         run: dotnet restore
         working-directory: BancoTests/
         
-      - name: Install EF Tools
-        run: dotnet tool install --global dotnet-ef
-      
+          
       - name: Build
         run: dotnet build --configuration Release --no-restore
         working-directory: BancoTests/
