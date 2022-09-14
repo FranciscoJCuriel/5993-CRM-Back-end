@@ -1,10 +1,5 @@
 name: learn-github-actions
-on: 
- push:
-  branches: [ development ]
-  paths:
-    - '**.cs'
-    - '**.csproj'
+on: [push]
 
 jobs:
  build:
