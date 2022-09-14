@@ -1,6 +1,5 @@
 name: learn-github-actions
 on: [push]
-
 jobs:
  build:
   runs-on: ubuntu-latest   # alternate runner OS is: ubuntu-latest
