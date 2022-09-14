@@ -7,3 +7,4 @@ C:\Proyectos\Santander\Code_Git\5993-CRM-Back-end\PruebasUnitariasSantander\obj\
 C:\Proyectos\Santander\Code_Git\5993-CRM-Back-end\PruebasUnitariasSantander\obj\Release\netcoreapp3.1\PruebasUnitariasSantander.csproj.CoreCompileInputs.cache
 C:\Proyectos\Santander\Code_Git\5993-CRM-Back-end\PruebasUnitariasSantander\obj\Release\netcoreapp3.1\PruebasUnitariasSantander.dll
 C:\Proyectos\Santander\Code_Git\5993-CRM-Back-end\PruebasUnitariasSantander\obj\Release\netcoreapp3.1\PruebasUnitariasSantander.pdb
+C:\Proyectos\Santander\Code_Git\5993-CRM-Back-end\PruebasUnitariasSantander\obj\Release\netcoreapp3.1\PruebasUnitariasSantander.csproj.AssemblyReference.cache
